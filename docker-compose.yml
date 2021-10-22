@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  emitter:
+    image: emitter:latest
+    volumes:
+      - "/sys:/sys"
