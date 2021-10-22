@@ -1,0 +1,6 @@
+{
+    "name": "atomy/nats-listener",
+    "require": {
+        "repejota/nats": "dev-master"
+    }
+}
