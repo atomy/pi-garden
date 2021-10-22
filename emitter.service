@@ -1,0 +1,13 @@
+[Unit]
+Description=Emitter service
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/pi/emitter
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/usr/bin/python3 /home/pi/emitter/emitter.py
+
+[Install]
+WantedBy=multi-user.target
